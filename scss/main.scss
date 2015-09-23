@@ -1,35 +1,35 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
-// 1. Vendors
+// Vendors
 @import
-  'vendor/normalize';
+  "vendor/normalize";
 
-// 2. Configuration and helpers
+// Configuration and helpers
 @import
-  'utils/variables',
-  'utils/functions',
-  'utils/mixins';
+  "utils/variables",
+  "utils/functions",
+  "utils/mixins";
 
-// 3. Base stuff
+// Base stuff
 @import
-  'base/base',
-  'base/fonts',
-  'base/typography',
-  'base/helpers';
+  "base/base",
+  "base/fonts",
+  "base/typography",
+  "base/helpers";
 
-// 4. Layout-related sections
+// Layout-related sections
 @import
-  'layout/header',
-  'layout/footer';
+  "layout/header",
+  "layout/footer";
 
-// 5. Components
+// Components
 @import
-  'components/buttons';
+  "components/buttons";
 
-// 6. Page-specific styles
+// Page-specific styles
 @import
-  'pages/home';
+  "pages/home";
 
-// 7. Themes
+// Themes
 @import
-  'themes/default';
+  "themes/default";
